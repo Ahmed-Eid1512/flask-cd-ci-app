@@ -26,3 +26,7 @@ jobs:
 
     - name: ✅ Run tests (لو في)
       run: echo "✔ No tests yet!"
+
+    - name: 🛠️ Build Docker image
+      run: docker build -t flask-app-ci .
+
